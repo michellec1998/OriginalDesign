@@ -93,18 +93,11 @@ void altArctwo()
 	quad(315, 275, 355, 295, 345, 325, 300, 300);
 }
 
-if mousePressed()
+void mousePressed()
 {
 	altArc();
 	noLoop();
 	//altArctwo();
-}
-
-if (altArc && mousePressed)
-{
-	reDraw();
-	altArctwo();
-
 }
 
 
